@@ -40,4 +40,10 @@ h2 {
   img {
     margin-top: 1.25rem;
   }
+
+  .header-menu a:hover {
+    background-color: #f9f9f9;
+    transition: 0.5s;
+    color: #000;
+  }
 }
