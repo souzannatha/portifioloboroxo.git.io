@@ -22,3 +22,12 @@ h2,
 h3 {
   margin: 0px;
 }
+
+.titulo-grande {
+  font-family: "Playfair Display";
+  font-size: 8rem;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 5ch;
+  line-height: 9rem;
+}
