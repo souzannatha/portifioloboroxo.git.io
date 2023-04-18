@@ -6,6 +6,7 @@
   margin: 0 auto;
   gap: 100px;
   grid-area: 100px;
+  position: relative;
 }
 
 .titulo-grande {
@@ -76,4 +77,50 @@
   background: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 2fr;
+    gap: 40px;
+  }
+
+  .experiencia h2 {
+    font-size: 3rem;
+    word-break: normal;
+  }
+
+  .nome-empresa,
+  .empresa-funcao {
+    font-size: 1.5rem;
+  }
+  .empresa-texto {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .experiencia-texto {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .empresa::before {
+    top: 28px;
+  }
+
+  .experiencia .titulo-grande {
+    display: none;
+  }
+
+  .experiencia-texto {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
 }

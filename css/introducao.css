@@ -58,7 +58,7 @@
 @media (max-width: 600px) {
   .introducao {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     justify-content: center;
     gap: 70px;
   }
